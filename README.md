@@ -9,16 +9,16 @@ cat ~/.ssh/id_rsa.pub import key pair
 #Second, set up security groups in AWS
 
 
-#Create EC2 account on AWS:
-•	Go to Amazon Web Services
-•	Create account
-•	Click “Launch Instance” box
-•	Step 1: Choose an Amazon Machine Image (AMI) - select Ubuntu Server 16.04LTS
-•	Step 2: Choose an Instance Type - select t2.micro – default option
-•	Step 3: Configure Instance Details – click next to “Add storage”
-•	Step 4: Add Storage – change from 8 to 30 (max for free tier eligible)
-•	Step 5: Add Tags – leave as is, skip next to “Configure Security Group”
-•	Step 6: Configure Security Group – SSH 22, HTTP 80
+#Create EC2 account on AWS, go to Amazon Web Services
+https://aws.amazon.com/
+#Create account
+#Click “Launch Instance” box
+#Step 1: Choose an Amazon Machine Image (AMI) - select Ubuntu Server 16.04LTS
+#Step 2: Choose an Instance Type - select t2.micro – default option
+#Step 3: Configure Instance Details – click next to “Add storage”
+#Step 4: Add Storage – change from 8 to 30 (max for free tier eligible)
+#Step 5: Add Tags – leave as is, skip next to “Configure Security Group”
+#Step 6: Configure Security Group – SSH 22, HTTP 80
 
 #Install Docker
 •	Launch Instance
