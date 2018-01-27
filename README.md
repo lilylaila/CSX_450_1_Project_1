@@ -1,9 +1,13 @@
 # CSX_450_1_Project_1
 
 #Before setting up an AWS account, do two things:
-•	In Bash, type ssh-keygen
-•	Leave paraphrase empty
-•	cat ~/.ssh/id_rsa.pub import key pair
+#In Bash, need to get key pair by typing:
+ssh-keygen
+#Leave paraphrase empty
+cat ~/.ssh/id_rsa.pub import key pair
+
+#Second, set up security groups in AWS
+
 
 #Create EC2 account on AWS:
 •	Go to Amazon Web Services
