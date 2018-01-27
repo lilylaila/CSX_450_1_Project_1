@@ -1,11 +1,12 @@
 # CSX_450_1_Project_1
 
-# Before setting up an AWS account, do two things  
+# Before setting up an AWS account, do two things:
+# 1) Generate key in Bash
 - In Bash, need to get key pair by typing: ssh-keygen
 - Leave paraphrase empty
 cat ~/.ssh/id_rsa.pub import key pair
 
-#Second, set up security groups in AWS
+# 2) Set up security groups in AWS
 
 
 # Create EC2 account on AWS, go to Amazon Web Services
@@ -44,7 +45,7 @@ cat ~/.ssh/id_rsa.pub import key pair
 - Make sure connected to Ubuntu server, not local
 
 # General Purpose - Current Generation (from Amazon Web Services)
-	     #vCPU	ECU		Memory (GiB)	Instance Storage (GB)	Linux/UNIX Usage	Hours in 3 mos	TOTAL FOR 3 MOS.
+	     vCPU	ECU		Memory (GiB)	Inst. Storage (GB)	Linux/UNIX Usage	Hours in 3 mos	TOTAL FOR 3 MOS.
 t2.nano	  	1	Variable	 .5	        EBS Only	      $0.0058 per Hour	    		2160	    $12.53
 t2.micro	1	Variable	  1	        EBS Only	      $0.0116 per Hour	    		2160	    $25.06
 t2.small	1	Variable	  2	        EBS Only	      $0.023 per Hour	      		2160	    $49.68
