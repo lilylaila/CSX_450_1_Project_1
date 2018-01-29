@@ -4,10 +4,13 @@
 # 1) Generate key in Bash
 - In Bash, need to get key pair by typing: ssh-keygen
 - Leave paraphrase empty
+- Copy the public key contents of the SSH and paste in AWS
 cat ~/.ssh/id_rsa.pub import key pair
 
 # 2) Set up security groups in AWS
-
+- Provide a name for the security group
+- Add necessary ports (SSH = 22, HTTP = 80, Jupyter = 8888), Save
+- This can be viewed in Inbound rules in the Instance
 
 # Create EC2 account on AWS, go to Amazon Web Services
 - https://aws.amazon.com/
@@ -18,7 +21,7 @@ cat ~/.ssh/id_rsa.pub import key pair
 - Step 3: Configure Instance Details – click next to “Add storage”
 - Step 4: Add Storage – change from 8 to 30 (max for free tier eligible)
 - Step 5: Add Tags – leave as is, skip next to “Configure Security Group”
-- Step 6: Configure Security Group – SSH 22, HTTP 80
+- Step 6: Configure Security Group – SSH 22, HTTP 80, or use existing security group created in step 1
 
 # Install Docker
 - Launch AWS Instance
